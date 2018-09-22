@@ -1,0 +1,44 @@
+#!/bin/bash
+
+echo "Documents"
+cp -fav ~/Dropbox/Documents /Volumes/BACKUP/Documents/
+cp -f ~/password.txt /Volumes/BACKUP/Documents/
+cp -fav ~/Dropbox/CVVsevolodLi /Volumes/BACKUP/Documents/
+cp -fav ~/Dropbox/Kindle\ Library /Volumes/BACKUP/Documents/
+
+echo "Books"   
+cp -fav ~/Dropbox/Kindle\ Library /Volumes/BACKUP/Books/
+
+echo "Latex"   
+cp -fav ~/Documents/LatexKindle /Volumes/BACKUP/Latex/
+
+echo "Photos"   
+cp -fav ~/Pictures/Медиатека\ Фото.photoslibrary /Volumes/BACKUP/Photos/
+
+echo "Projects"   
+cp -fav ~/Documents/Projects /Volumes/BACKUP/Projects/
+
+echo "Musik"   
+cp -fav ~/Music/iTunes /Volumes/BACKUP/Music/
+
+echo "Configs"
+cp -f ~/.bash_profile /Volumes/BACKUP/Configs/bash
+cp -f ~/.bash /Volumes/BACKUP/Configs/bash
+cp -f ~/.zshrc /Volumes/BACKUP/Configs/bash
+cp -f ~/.zprofile /Volumes/BACKUP/Configs/bash
+cp -f ~/backup-now /Volumes/BACKUP/Configs/bash
+cp -f ~/convert-mp4-webm.sh /Volumes/BACKUP/Configs/bash
+cp -f ~/ssh-connect /Volumes/BACKUP/Configs/bash
+
+cp -f ~/.vimrc /Volumes/BACKUP/Configs/vim
+cp -fav ~/.vim /Volumes/BACKUP/Configs/vim
+
+echo "Additional"   
+cp -fav ~/Documents/AdditionalBackUp /Volumes/BACKUP/Additional/
+
+
+
+echo "BackUp ist gemacht, mein Padrone"   
+echo "<------------------------------>"   
+echo "<------------------------------>"   
+echo "<------------------------------>"   
